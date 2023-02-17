@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*border: size style color */
+
+body{
+    background-image: url();
+}
+
+body.border {
+    background-color: pink;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.navlink{
+    display: inline-block; 
+    width: 19.5%;
+     padding:10px 0;;}
+
+
+nav div{
+    padding: 10px;
+    background-color: black;
+}
+
+nav a{
+    margin-right: 50px;
+}
+
+main h2 {
+    border: 3px dashed red;
+    display: inline-block;
+    padding: 10px;
+}
+
+section,
+article {
+    height: 250px;
+}
+
+aside {
+    height: 510px
+}
+
+
+.border {
+    border: 3px solid black;
+    margin: 10px;
+    background-color: red;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+a:link{color: red;}
+a:visited{color: black;}
+
+a:hover{color: red; background-color: black;}
+a:active{color: black background-color white}
+
+
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+div:hover{background-color: red;}
+div:active{background-color: blue;}
